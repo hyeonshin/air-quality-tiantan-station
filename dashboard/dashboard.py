@@ -8,7 +8,7 @@ st.write("Current working directory:", os.getcwd())
 st.write("Files in working directory:", os.listdir(os.getcwd()))
 sns.set(style='dark')
 
-all_df = pd.read_csv("main_data.csv")
+all_df = pd.read_csv("data/main_data.csv")
 
 st.header('Air Quality Tiantan Station Dashboard:sparkles:')
 
