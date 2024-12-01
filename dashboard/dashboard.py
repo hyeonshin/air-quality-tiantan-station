@@ -7,7 +7,7 @@ import os
 st.write("Current working directory:", os.getcwd())
 sns.set(style='dark')
 
-all_df = pd.read_csv(".\dashboard\main_data.csv")
+all_df = pd.read_csv("/dashboard/main_data.csv")
 
 st.header('Air Quality Tiantan Station Dashboard:sparkles:')
 
