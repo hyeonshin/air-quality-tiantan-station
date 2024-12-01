@@ -5,7 +5,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-all_df = pd.read_csv("/dashboard/main_data.csv")
+all_df = pd.read_csv("../main_data.csv")
 
 st.header('Air Quality Tiantan Station Dashboard:sparkles:')
 
