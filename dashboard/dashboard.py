@@ -6,7 +6,7 @@ from babel.numbers import format_currency
 
 sns.set(style='dark')
 
-all_df = pd.read_csv("../data/main_data.csv")
+all_df = pd.read_csv("data/main_data.csv")
 
 st.header('Air Quality Tiantan Station Dashboard:sparkles:')
 
