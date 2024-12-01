@@ -14,6 +14,14 @@ pipenv shell
 pip install -r requirements.txt
 ```
 
+## Run steamlit app in local
+```
+edit dashboard.py
+change pd.read_csv("dashboard/main_data.csv") to pd.read_csv("main_data.csv")
+save
+streamlit run dashboard.py
+```
+
 ## Run steamlit app
 ```
 streamlit run dashboard.py
